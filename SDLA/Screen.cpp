@@ -78,7 +78,9 @@ void Screen::processEvents() {
 
 void Screen::setPixel(int x, int y, Uint8 r, Uint8 g, Uint8 b, Uint8 a) {
 	if (x < 0 || x >= SCREEN_WIDTH || y < 0 || y >= SCREEN_HEIGHT) {
-		printf("PIXEL OUT OF BOUNDS: %s %s", x, y);
+		//cout << "OUT OF BOUNDS" << endl;
+		//cout << x << endl << y << endl;
+		//printf("PIXEL OUT OF BOUNDS: %s %s", x, y);
 	} else {
 		Uint32 color = 0;
 		// add rgba val, shift by one byte
@@ -93,10 +95,10 @@ void Screen::setPixel(int x, int y, Uint8 r, Uint8 g, Uint8 b, Uint8 a) {
 void Screen:: run() {
 	Swarm swarm;
 	const Particle * const particles = swarm.getParticles();
-	// update swarm, 
-	swarm.update();
 	while (!quit) {
+		clear();
 		int elapsed = SDL_GetTicks();
+		swarm.update();
 		unsigned char r = (1 + sin(elapsed * 0.0012)) * 128;
 		unsigned char g = (1 + sin(elapsed * 0.0021)) * 128;
 		unsigned char b = (1 + sin(elapsed * 0.005)) * 128;

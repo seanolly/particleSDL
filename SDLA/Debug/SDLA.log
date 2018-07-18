@@ -1,15 +1,10 @@
-﻿  stdafx.cpp
-  main.cpp
-c:\users\conno\source\repos\sdla\sdla\main.cpp(15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-  Particle.cpp
+﻿  Particle.cpp
   Screen.cpp
-c:\users\conno\source\repos\sdla\sdla\screen.cpp(81): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'int'
-c:\users\conno\source\repos\sdla\sdla\screen.cpp(81): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 2 has type 'int'
-c:\users\conno\source\repos\sdla\sdla\screen.cpp(100): warning C4244: 'initializing': conversion from 'double' to 'unsigned char', possible loss of data
-c:\users\conno\source\repos\sdla\sdla\screen.cpp(101): warning C4244: 'initializing': conversion from 'double' to 'unsigned char', possible loss of data
 c:\users\conno\source\repos\sdla\sdla\screen.cpp(102): warning C4244: 'initializing': conversion from 'double' to 'unsigned char', possible loss of data
-c:\users\conno\source\repos\sdla\sdla\screen.cpp(105): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-c:\users\conno\source\repos\sdla\sdla\screen.cpp(106): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\conno\source\repos\sdla\sdla\screen.cpp(103): warning C4244: 'initializing': conversion from 'double' to 'unsigned char', possible loss of data
+c:\users\conno\source\repos\sdla\sdla\screen.cpp(104): warning C4244: 'initializing': conversion from 'double' to 'unsigned char', possible loss of data
+c:\users\conno\source\repos\sdla\sdla\screen.cpp(107): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\conno\source\repos\sdla\sdla\screen.cpp(108): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
   Swarm.cpp
   Generating Code...
   SDLA.vcxproj -> C:\Users\conno\source\repos\SDLA\Debug\SDLA.exe
