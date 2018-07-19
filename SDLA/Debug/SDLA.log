@@ -1,10 +1,9 @@
-﻿  Particle.cpp
-  Screen.cpp
-c:\users\conno\source\repos\sdla\sdla\screen.cpp(102): warning C4244: 'initializing': conversion from 'double' to 'unsigned char', possible loss of data
+﻿  Screen.cpp
 c:\users\conno\source\repos\sdla\sdla\screen.cpp(103): warning C4244: 'initializing': conversion from 'double' to 'unsigned char', possible loss of data
 c:\users\conno\source\repos\sdla\sdla\screen.cpp(104): warning C4244: 'initializing': conversion from 'double' to 'unsigned char', possible loss of data
-c:\users\conno\source\repos\sdla\sdla\screen.cpp(107): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\conno\source\repos\sdla\sdla\screen.cpp(105): warning C4244: 'initializing': conversion from 'double' to 'unsigned char', possible loss of data
 c:\users\conno\source\repos\sdla\sdla\screen.cpp(108): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\conno\source\repos\sdla\sdla\screen.cpp(109): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
   Swarm.cpp
   Generating Code...
   SDLA.vcxproj -> C:\Users\conno\source\repos\SDLA\Debug\SDLA.exe

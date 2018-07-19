@@ -6,11 +6,11 @@ private:
 	Particle * m_particles;
 	int time;
 public:
-	static const int N_PARTICLES = 1000;
+	static const int N_PARTICLES = 4000;
 public:
 	Swarm();
 	const Particle * const getParticles();
-	void update();
+	void update(int elapsed);
 	~Swarm();
 };
 
